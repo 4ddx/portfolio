@@ -125,7 +125,7 @@ const Contact = () => {
             />
             <Button type="submit">Send</Button>
             {success &&
-              "Your message has been sent. We'll get back to you soon :)"}
+              "Your message has been sent. We'll get back to you soon :D"}
           </Form>
           <GithubIcon>
             <a
