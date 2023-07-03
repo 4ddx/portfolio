@@ -9,7 +9,7 @@ const Container = styled.div`
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   scrollbar-width: none;
-  color: white;
+  color: whitesmoke;
   background: url("./img/bg.jpeg");
   &::-webkit-scrollbar {
     display: none;
