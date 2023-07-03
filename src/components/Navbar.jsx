@@ -3,12 +3,22 @@ import { styled } from "styled-components";
 const Section = styled.div`
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 const Container = styled.div`
   display: flex;
   flex-direction: row;
   width: 1400px;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
+    padding-top: 5px;
+  }
 `;
 const Links = styled.div`
   display: flex;
@@ -26,6 +36,10 @@ const List = styled.ul`
   list-style-type: none;
   display: flex;
   gap: 2rem;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 const ListItem = styled.li`
   cursor: pointer;

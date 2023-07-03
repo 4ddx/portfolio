@@ -112,7 +112,6 @@ function Hero() {
             </Suspense>
           </Canvas>
           <Img src="./img/astro.png" />
-          {/*<Img src="./img/astro.png" />*/}
         </Right>
       </Container>
     </Section>

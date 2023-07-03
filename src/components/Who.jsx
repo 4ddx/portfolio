@@ -17,6 +17,8 @@ import {
   About,
   Line,
   P,
+  SmContainer,
+  SmHistContainer,
 } from "./styles";
 
 function Who() {
@@ -59,6 +61,25 @@ function Who() {
           <P></P>
         </Right>
       </Container>
+      <SmContainer>
+        <Line></Line>
+        <SmHistContainer>
+          <DescTitle>Education:</DescTitle>
+          <Degree>
+            {" "}
+            B.Tech (C.S.E)
+            <Date>• 2023 - 2027</Date>
+          </Degree>
+          <Ed>• R.V.C.E Bengaluru, India</Ed>
+
+          <DescTitle>Work History:</DescTitle>
+          <Degree>
+            Front-End Blockchain Developer
+            <Date>• Feb 2023 - Present</Date>
+          </Degree>
+          <Ed>• Wega(Misfits.Inc)</Ed>
+        </SmHistContainer>
+      </SmContainer>
     </Section>
   );
 }

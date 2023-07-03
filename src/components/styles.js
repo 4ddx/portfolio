@@ -7,6 +7,8 @@ export const Section = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
+
 `;
 export const Container = styled.div`
   display: flex;
@@ -17,6 +19,10 @@ export const Container = styled.div`
   width: 1600px;
   scroll-snap-align: center;
   border-bottom: 1px solid black;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 export const Left = styled.div`
   display: flex;
@@ -127,4 +133,23 @@ export const Ed = styled.div`
   color: gray;
   font-size: 14px;
   padding: 15px;
+`;
+export const SmContainer = styled.div`
+display: none;
+
+@media (max-width: 768px){
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
+  width: 100%;
+overflow: hidden;
+}
+`;
+export const SmHistContainer = styled.div`
+display: flex;
+flex-direction: column;
+gap: 2rem;
 `;
